@@ -75,7 +75,7 @@
     color: #aa9166;
 }
 
-.rows .btn {
+.btn {
     padding: 10px 25px;
     font-size: 18px;
     font-weight: 500;
@@ -88,7 +88,16 @@
     transition: .3s;
 }
 
-.rows .btn:hover {
+.btn.disabled, .btn:disabled{
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
+
+.btn:hover {
     color: #121518;
     background: #aa9166;
+}
+
+agm-map {
+    height: 300px;
 }

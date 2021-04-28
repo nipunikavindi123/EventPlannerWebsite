@@ -59,7 +59,11 @@ body {
     font-size: 8rem;
 }
 
-
+.btn.disabled, .btn:disabled{
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
 .bgimg{
     background: #aa9166;
+    padding: 50px;;
 }

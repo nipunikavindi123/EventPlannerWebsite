@@ -8,7 +8,7 @@ import * as moment from 'moment';
 
 export class SharedService {
 
-    public  base_url = "http://localhost:3030/api/v1";
+    public  base_url = "https://boiling-wave-30400.herokuapp.com/api/v1";
 //   public  base_url = "https://boiling-wave-30400.herokuapp.com/api/v1";
     constructor( 
         private http: HttpClient) {
